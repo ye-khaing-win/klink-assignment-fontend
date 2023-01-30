@@ -1,0 +1,45 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.4rem;
+
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  overflow: hidden;
+
+  &__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: 24px;
+
+    width: 48.8rem;
+    height: 4.8rem;
+
+    outline: none;
+    border: none;
+
+    background-color: #fff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #2e3ea1;
+    border: none;
+    width: 8rem;
+    height: 3.8rem;
+    border-radius: 100px;
+  }
+
+  &__icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: #fff;
+  }
+}

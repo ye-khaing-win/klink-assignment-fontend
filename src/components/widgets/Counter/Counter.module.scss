@@ -1,0 +1,22 @@
+.counter {
+  display: flex;
+
+  & > span {
+    cursor: pointer;
+    height: 4rem;
+    width: 4.4rem;
+    border: 1px solid #d0d5dd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__dec {
+    border-radius: 8px 0px 0px 8px;
+  }
+
+  &__inc {
+    border-radius: 0px 8px 8px 0px;
+  }
+}

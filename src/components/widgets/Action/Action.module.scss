@@ -1,0 +1,33 @@
+.action {
+  cursor: pointer;
+
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+
+  background-color: #d0d5dd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.1s;
+
+  &--close {
+    background-color: transparent;
+
+    & > .action__icon {
+      fill: #000;
+    }
+  }
+
+  &__icon {
+    height: 68%;
+    width: 68%;
+    fill: #151d72;
+
+    transition: fill 0.1s;
+  }
+}

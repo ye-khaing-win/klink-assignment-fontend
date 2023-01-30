@@ -1,0 +1,55 @@
+.login {
+  flex: 0 0 50%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    padding: 0px 32px;
+
+    width: 40rem;
+    height: 43.7rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    letter-spacing: -0.02em;
+
+    color: #101828;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #667085;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

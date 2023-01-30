@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+  &__list {
+    padding: 0.8rem;
+    overflow: overlay;
+    height: 74vh;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 26rem);
+    grid-auto-rows: min-content;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    justify-content: center;
+    align-content: center;
+  }
+}

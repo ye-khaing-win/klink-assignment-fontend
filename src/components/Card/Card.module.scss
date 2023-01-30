@@ -1,0 +1,74 @@
+.card {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.2rem;
+  gap: 1.2rem;
+
+  flex: 0 0 24rem;
+  height: 34rem;
+
+  background: #fff;
+
+  box-shadow: 0 0.5rem 1rem rgba(#000, 0.1);
+  border-radius: 16px;
+
+  position: relative;
+
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 1rem 2rem rgba(#000, 0.2);
+  }
+
+  &__figure {
+    overflow: hidden;
+    border-radius: 12px;
+    width: 100%;
+    height: 20rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    filter: brightness(80%);
+  }
+
+  &__default_image {
+    background: #eef1ff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__description {
+    width: 200.25px;
+    height: 6rem;
+
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  &__price {
+    height: 30px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #2e3ea1;
+
+    align-self: stretch;
+    flex-grow: 0;
+  }
+}
