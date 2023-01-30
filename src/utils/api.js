@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:9000/api/v1";
+axios.defaults.baseURL = process.env.REACT_APP_SERVER_URL;
 
 export const fetchAll = (url, token) =>
   axios.get(url, {
